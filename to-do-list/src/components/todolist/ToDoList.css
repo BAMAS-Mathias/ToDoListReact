@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.taskList{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    padding: 2rem 4rem;
+}
+
+#to-do-list{
+    background-color: rgba(238, 238, 238, 0.232);
+    width: fit-content;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: 10px;
+
+}
+
+#to-do-list h1{
+    color: rgb(237, 237, 237);
+    font-weight: bold;
+    font-family: 'Inter', serif;
+    font-size: 4em;
+}
+
+#add-task-input{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+#add-task-input input[type="text"]{
+    border: none;
+    background-color: azure;
+    width: 80%;
+    font-family: 'Inter', serif;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+#add-task-input button{
+    padding: 1rem 2rem;
+    border: none;
+}
+
+svg{
+    width: auto;
+    height: 30px;
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-family: 'Inter', serif;
+    font-weight: bold;
+}

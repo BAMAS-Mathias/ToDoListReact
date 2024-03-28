@@ -1,0 +1,44 @@
+.task{
+    display: flex;
+    background-color: rgb(34, 34, 34,0.7);
+    padding: 0.75rem 0.75rem;
+    border-radius: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.task input[type="text"]{
+    padding: 0.7rem 1.3rem;
+    font-family: 'Inter', serif;
+    background: none;
+    border: none;
+    color: rgb(237, 237, 237, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.task input[type="checkbox"]{
+    width: 35px;
+    height: 35px;
+}
+
+.task input[type="text"]:not(:read-only){
+     border: solid rgb(111, 154, 254);
+}
+
+#icon-trash{
+    transition: 0.1s all;
+    cursor: pointer;
+}
+#icon-trash:hover{
+    color: rgb(236, 60, 60);
+}
+
+input[type=checkbox]:checked + input[type="text"] {
+    text-decoration: line-through;
+}
+
+p{
+    color: rgb(237, 237, 237, 0.8);;
+}
